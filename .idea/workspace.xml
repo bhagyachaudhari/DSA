@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d847e9c7-f2de-48db-a869-68e25317922d" name="Changes" comment="initial commit.">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtracking/DistinctSubSetExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtracking/DupSubsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtracking/LetterPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtracking/Permutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtracking/SquarefulArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtracking/UniquePaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtracking/UniquePermutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="d847e9c7-f2de-48db-a869-68e25317922d" name="Changes" comment="Backtracking.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtracking/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtracking/NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtracking/PalindromPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtracking/Sudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backtracking/WordBreak.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,9 +51,9 @@
     "settings.editor.selected.configurable": "preferences.packagesearch.PackageSearchGeneralConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DupSubsets">
-    <configuration name="DupSubsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.backtracking.DupSubsets" />
+  <component name="RunManager" selected="Application.CombinationSum">
+    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.backtracking.CombinationSum" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +65,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterPhone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.backtracking.LetterPhone" />
+    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.backtracking.NQueens" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.backtracking.PalindromPartition" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquarefulArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.backtracking.SquarefulArray" />
+    <configuration name="Sudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.backtracking.Sudoku" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -109,21 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.backtracking.UniquePaths" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UniquePermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.backtracking.UniquePermutations" />
+    <configuration name="WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.backtracking.WordBreak" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DupSubsets" />
-        <item itemvalue="Application.LetterPhone" />
-        <item itemvalue="Application.SquarefulArray" />
-        <item itemvalue="Application.UniquePaths" />
-        <item itemvalue="Application.UniquePermutations" />
+        <item itemvalue="Application.CombinationSum" />
+        <item itemvalue="Application.PalindromPartition" />
+        <item itemvalue="Application.Sudoku" />
+        <item itemvalue="Application.WordBreak" />
+        <item itemvalue="Application.NQueens" />
       </list>
     </recent_temporary>
   </component>
@@ -161,11 +156,19 @@
       <option name="project" value="LOCAL" />
       <updated>1720361388089</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Backtracking.">
+      <created>1720374637379</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720374637379</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit." />
+    <MESSAGE value="Backtracking." />
+    <option name="LAST_COMMIT_MESSAGE" value="Backtracking." />
   </component>
 </project>
